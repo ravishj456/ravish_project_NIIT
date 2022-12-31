@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+    <h2 class="headingpart">The NIIT Quiz App</h2>
+   <div class="container">
+       <div class="quizpart" id="quizpart">
+        <img class="normal-img" id="img1" src="./assets/normal_img_1.png" onclick= "imageClicked('img1')" />
+        <img class="normal-line" src="./assets/normal_line.png" />
+        <img class="normal-img img-head2" id="img2" src="./assets/normal_img_2.png" onclick="imageClicked('img2')" />
+        <img class="normal-line" src="./assets/normal_line.png" />
+        <img class="normal-img img-head3" id="img3"src="./assets/normal_img_3.png" onclick="imageClicked('img3')"/>
+        <img class="normal-line" src="./assets/normal_line.png" />
+        <img class="normal-img img-head4" id="img4"src="./assets/normal_img_4.png" onclick="imageClicked('img4')" />
+        <img class="normal-line" src="./assets/normal_line.png" />
+        <img class="normal-img img-head5" id="img5" src="./assets/normal_img_5.png" onclick="imageClicked('img5')"/>
+           <div class="quiz">
+
+           </div>
+
+       </div>
+       <div class="scorepart">
+           <h2>Score</h2>
+               <h2><span class="score">0</span>/5</h2>
+       </div>
+   </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous"></script>
+    <script src="Quiz.js" ></script>   
+</body>
+</html>
